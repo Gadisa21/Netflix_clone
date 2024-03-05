@@ -1,0 +1,58 @@
+.All{
+   background-size: cover;
+    background-position: center;
+    height: 500px;
+   object-fit: contain;
+    color: white;
+} 
+.info{
+  margin-left: 30px;
+  padding-top: 180px;
+  height: 200px;
+  /* padding-right: 300px; */
+}  
+
+.movie_title{
+  font-weight: 800;
+  font-size: 3rem;
+}
+.banner_discription{
+  width: 720px;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 1rem;
+  max-width: 360px;
+  height: 80px;
+  /* color:#808080 */
+}
+button{
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  background-color: rgba(51, 51, 51, 0.5);
+
+}
+button:hover{
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.2s;
+}
+    
+   
+    
+
+.fade_banner{
+  height: 7.8rem;
+  background-image: linear-gradient(
+    180deg,transparent,rgb(37,37,37,0.61),#111
+  );
+
+}
